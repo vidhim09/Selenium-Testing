@@ -64,24 +64,28 @@ public class Assignment {
 
     static void question7(){
         System.out.println("Q7. Write the disadvantages of selenium.");
+        System.out.println("Refer Assignment Theory in same package");
         System.out.println("---------------------------------------------");
     }
 //    Q8: Difference between get() & navigate() method
 
     static void question8(){
         System.out.println("Q8. Difference between get() & navigate() method");
+        System.out.println("Refer Assignment Theory in same package");
         System.out.println("---------------------------------------------");
     }
 //    Q9. What is the difference between Selenium RC & Selenium WebDriver.
 
     static void question9(){
         System.out.println("Q9. What is the difference between Selenium RC & Selenium WebDriver.");
+        System.out.println("Refer Assignment Theory in same package");
         System.out.println("---------------------------------------------");
     }
 //    Q10. What are locators & types of locators in selenium
 
     static void question10(){
         System.out.println("Q10. What are locators & types of locators in selenium");
+        System.out.println("Refer Assignment Theory in same package");
         System.out.println("---------------------------------------------");
     }
 //    Q11.  Write an automation script for filling all fields of the registration page. (Registration.html)
