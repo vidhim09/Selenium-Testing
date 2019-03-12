@@ -15,6 +15,18 @@ public class Register {
         driver.get("file:///home/ttn/Downloads/Registration.html");
         System.out.println("Q11.  Write an automation script for filling all fields of the registration page. (Registration.html)");
 
+        driver.findElement(By.xpath("//input[@ng-model='FirstName']")).sendKeys("Vidhi");
+        driver.findElement(By.xpath("//input[@ng-model='LastName']")).sendKeys("Manglik");
+        driver.findElement(By.xpath("//textarea[@ng-model='Adress']")).sendKeys("Race Course Road");
+        driver.findElement(By.xpath("//input[@ng-model='EmailAdress']")).sendKeys("vidhi.manglik@tothenew.com");
+        driver.findElement(By.xpath("//input[@ng-model='Phone']")).sendKeys("99999999");
+        driver.findElements(By.name("radiooptions")).get(1).click();
+        driver.findElement(By.id("checkbox1")).click();
+        driver.findElement(By.id("checkbox2")).click();
+        driver.findElement(By.id("firstpassword")).sendKeys("password");
+        driver.findElement(By.id("secondpassword")).sendKeys("password");
+
+
         System.out.println("Validate the Refresh button");
         if(driver.findElement(By.id("submitbtn")).isEnabled()){
             System.out.println("Refresh Disabled");
