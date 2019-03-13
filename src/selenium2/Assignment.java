@@ -65,7 +65,7 @@ public class Assignment {
 
     static void question7(){
         System.out.println("Q7- https://www.myntra.com/\nMouse hover on the Home & Living tab then click clock, now validate that navigated URL is for clock section.");
-        System.out.println();
+        System.out.println("Refer MouseActions.java");
         System.out.println("---------------------------------------------");
     }
 
