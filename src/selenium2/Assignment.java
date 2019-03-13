@@ -57,7 +57,7 @@ public class Assignment {
 
     static void question6(){
         System.out.println("Q6- https://www.toolsqa.com/automation-practice-switch-windows/\nClick on New Browser Tab then click on Blog Tab in the newly opened window.");
-        System.out.println("Refer ManageWindows.java");
+        System.out.println("Refer BrowserTabs.java");
         System.out.println("---------------------------------------------");
     }
 //    Q7- https://www.myntra.com/
