@@ -47,7 +47,7 @@ public class Assignment {
 //
 
     static void question5(){
-        System.out.println("Q5- http://demo.automationtesting.in/Frames.html");
+        System.out.println("Q5- http://www.londonfreelance.org/courses/frames/index.html");
         System.out.println("Refer FrameAutomation.java");
         System.out.println("---------------------------------------------");
     }
